@@ -5,14 +5,14 @@ The application allows users to safely store, manage, and retrieve multiple acco
 
 ---
 
-#📌 Project Overview
+##📌 Project Overview
 
 The project focuses on building a **secure password manager** that supports real-world features such as encrypted password storage, master password verification, security question–based recovery, and modular layered design.
 
 It demonstrates strong backend fundamentals including **authentication, validation, encryption, exception handling, and database integration**.
 
 ---
-#🚀 Features
+##🚀 Features
 
 ##🔑 User Authentication & Security
 - User registration with:
@@ -38,7 +38,7 @@ It demonstrates strong backend fundamentals including **authentication, validati
 
 ---
 
-#🛡️ Security Implementation
+##🛡️ Security Implementation
 - Master passwords are **hashed** before storing in the database
 - Account passwords are **encrypted**
 - Sensitive operations require **master password re-entry**
@@ -47,7 +47,7 @@ It demonstrates strong backend fundamentals including **authentication, validati
 
 ---
 
-#📂 Functional Scope
+##📂 Functional Scope
 
 - Registered users can:
   - Log in to the system
@@ -59,7 +59,7 @@ It demonstrates strong backend fundamentals including **authentication, validati
 
 ---
 
-#🏗️ Application Architecture
+##🏗️ Application Architecture
 
 The project follows a **modular, layered architecture**:
 
@@ -80,7 +80,7 @@ The project follows a **modular, layered architecture**:
 
 ---
 
-#🗄️ Database Design
+##🗄️ Database Design
 
 - Relational database using MySQL
 - Tables include:
@@ -95,7 +95,7 @@ The project follows a **modular, layered architecture**:
 
 ---
 
-#🛠️ Technologies Used
+##🛠️ Technologies Used
 
 - Java (Core Java)
 - JDBC
@@ -106,7 +106,7 @@ The project follows a **modular, layered architecture**:
 
 ---
 
-#✅ Definition of Done (DoD)
+##✅ Definition of Done (DoD)
 
 - Fully working console-based application
 - Secure authentication and password management
@@ -120,7 +120,7 @@ The project follows a **modular, layered architecture**:
 
 ---
 
-#📊 ER Diagram
+##📊 ER Diagram
 
 This diagram represents the database design of the RevPasswordManager application, 
 showing users, password entries, security questions, and verification codes along 
@@ -130,7 +130,7 @@ with their relationships.
 
 ---
 
-#▶️ How to Run the Application
+##▶️ How to Run the Application
 
 1. Clone the repository:
 ```bash
