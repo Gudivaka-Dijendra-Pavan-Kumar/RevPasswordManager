@@ -1,11 +1,11 @@
-🔐 RevPasswordManager
+🔐** RevPasswordManager**
 
 RevPasswordManager is a console-based Password Manager application developed using Java, JDBC, and MySQL.
 It allows users to securely store and manage multiple account passwords using a single master account, with proper authentication, validation, and recovery mechanisms.
 
 This project follows real-world application design principles such as layered architecture, encryption, validations, and exception handling.
 
-📌 Key Features
+📌** Key Features**
 👤 User Management
 
 User Registration with:
