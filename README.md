@@ -120,30 +120,13 @@ The project follows a **modular, layered architecture**:
 
 ---
 
-📊 ER Diagram
+## 📊 ER Diagram
 
-The **Entity Relationship (ER) Diagram** represents the logical structure of the RevPasswordManager database and defines how entities are related to each other.
+This diagram represents the database design of the RevPasswordManager application, 
+showing users, password entries, security questions, and verification codes along 
+with their relationships.
 
-🔗 Key Entities
-- **Users**
-  - Stores user account information such as name, email, and master password hash.
-- **Passwords**
-  - Stores encrypted passwords for different accounts linked to a user.
-- **Security_Questions**
-  - Stores security questions and hashed answers for account recovery.
-- **Verification_Codes**
-  - Stores one-time verification codes used for sensitive operations like password reset.
-
-🔐 Relationships
-- One **User** can have **multiple Password entries**.
-- Each **Password** belongs to exactly **one User**.
-- Each **User** has **one Security Question** for recovery.
-- Each **User** can generate **multiple Verification Codes**, each expiring after use.
-
-🧩 Design Highlights
-- Primary and Foreign Keys are used to maintain referential integrity.
-- The schema follows normalization principles to avoid redundancy.
-- The design supports secure authentication and recovery workflows.
+![ER Diagram](ER%20diagram.png)
 
 ---
 
