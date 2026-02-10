@@ -126,7 +126,7 @@ This diagram represents the database design of the RevPasswordManager applicatio
 showing users, password entries, security questions, and verification codes along 
 with their relationships.
 
-![ER Diagram](ER%20diagram.png)
+![ER Diagram](ER%20diagram.jpeg)
 
 ---
 
